@@ -100,7 +100,7 @@ h1
 }
 .search-bar
 {
-    width: 271px;
+    max-width: 271px;
     height: 50px;
     border:1px solid #f2f2f2;
 }
@@ -116,4 +116,115 @@ h1
     text-decoration: none; 
     font-weight: bold;
     border-radius: 0px 15px 15px 0px;
+}
+/*****FILTERS*************************************************/
+.filters
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: bold;
+    margin: 30px;
+    max-width: 900px;
+}
+.filters-title
+{
+    display: flex;;
+    align-items: center;
+    position: relative;
+}
+.filters-model
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    border-radius: 50px;
+    height: 45px;
+    margin: 0px 10px 0px 0px;
+    padding: 0px 10px 0px 0px;
+}
+/*.filter-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    border-radius: 50px;
+    height: 45px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 50px;
+}*/
+/*************ECONOMIC LOGO*************/
+.fa-money-bill-wave
+{
+    height: 33px;
+    width: 33px;
+    color: #0065fc; 
+    background-color: #DEEBFF ;
+    border-radius:50px;
+    padding: 15px 0px 0px 15px;
+    margin-right: 5px;
+    /*position: absolute;
+    top:1px;
+    left: 75px;*/
+}
+.fa-money-bill-wave:hover
+{
+    background-color: #f2f2f2 ;
+}
+/*************FAMILIAL LOGO*************/
+.fa-child
+{
+    height: 33px;
+    width: 33px;
+    color: #0065fc; 
+    background-color: #DEEBFF ;
+    border-radius:50px;
+    padding: 15px 0px 0px 15px;
+    margin-right: 5px;
+    /*position: absolute;
+    top: 1px;
+    left: 250px;*/
+}
+.fa-child:hover
+{
+    background-color: #f2f2f2 ;
+}
+/*************ROMANTIC LOGO*************/
+.fa-heart
+{
+    height: 33px;
+    width: 33px;
+    color: #0065fc; 
+    background-color: #DEEBFF ;
+    border-radius:50px;
+    padding: 15px 0px 0px 15px;
+    margin-right: 5px;
+    /*position: absolute;
+    top: 1px;
+    left: 400px;*/
+}
+.fa-heart:hover
+{
+    background-color: #f2f2f2 ;
+}
+/*************PETS LOGO*************/
+.fa-dog
+{
+    height: 33px;
+    width: 33px;
+    color: #0065fc; 
+    background-color: #DEEBFF ;
+    border-radius:50px;
+    padding: 15px 0px 0px 15px;
+    margin-right: 5px;
+    /*position: absolute;
+    top: 0px;
+    left: 0px;*/
+}
+.fa-dog:hover
+{
+    background-color: #f2f2f2 ;
+}
 

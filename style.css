@@ -87,6 +87,7 @@ h1
     display: flex;
     flex-direction: row;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .position-logo
 {
@@ -124,7 +125,7 @@ h1
     flex-wrap: wrap;
     justify-content: space-between;
     font-weight: bold;
-    margin: 30px;
+   
     max-width: 900px;
 }
 .filters-title
@@ -132,6 +133,7 @@ h1
     display: flex;;
     align-items: center;
     position: relative;
+    margin-bottom: 30px;
 }
 .filters-model
 {
@@ -141,7 +143,7 @@ h1
     border: 2px solid #f2f2f2;
     border-radius: 50px;
     height: 45px;
-    margin: 0px 10px 0px 0px;
+    margin: 0px 10px 30px 0px;
     padding: 0px 10px 0px 0px;
 }
 /*.filter-text
@@ -226,5 +228,191 @@ h1
 .fa-dog:hover
 {
     background-color: #f2f2f2 ;
+}
+/**************************INFORMATION****************************/
+.information
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;;
+}
+.information-text
+{
+    display:flex;
+    flex-wrap: wrap;
+    opacity: 0.5;
+}
+.information-logo
+{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    margin: 0px 15px 0px 0px;
+    border: 2px solid #f2f2f2;
+   border-radius: 25px;
+}
+.body-part1
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+/*******************************************HOSTINGS**********************************************/
+.hostings
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    max-width: 880px;
+    padding: 0px 10px 0px 40px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.text
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin:45px 0px 30px 0px;
+    font-weight: bold;
+}
+.bouton-afficher-plus
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin:10px 0px 50px 0px;
+    font-weight: bold;
+}
+.hostings-list
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style:none;
+    /*margin-bottom: 30px;*/
+}
+.hostings-card
+{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    border:5px solid white;
+    background-color: white;
+    width: 235px;
+    height: 190px;
+    border-radius: 15px;
+    text-decoration: none;
+   /* padding: 0px 0px 0px 0px;*/
+    margin: 0px 30px 30px 0px ;
+}
+.hosting-card-img
+{
+    height: 115px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+.hostings-card-description
+{
+    display: flex; 
+    flex-direction: column;
+}
+.fa-star
+{
+    color: #0065fc;
+}
+.fa-star-grey
+{
+    color: #d9d9d9;
+}
+.hotel-name
+{
+    margin: 5px 0px 0px 15px;
+    font-weight: bold;
+    color: black;
+    opacity: 0.8;
+}
+.hotel-price
+{
+    margin: 0px 0px 0px 15px;
+    color: black;
+    opacity: 0.8;
+}
+.hotel-rating
+{
+     margin: 0px 0px 0px 15px;
+}
+/**************************************************THE MOST POPULAR*******************************************************/
+.most-popular
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 420px;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.fa-chart-line
+{
+    position:absolute;
+    top:30px;
+    left: 400px;
+}
+.most-popular-list
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style:none;
+    margin: 0px 0px 0px 35px;
+    padding: 0px 40px 0px 40px;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+}
+.most-popular-card
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    border:5px solid white;
+    background-color: white;
+    text-decoration: none;
+    width: 333px;
+    height: 135px;
+    border-radius: 15px;
+    margin-bottom:  42px;
+}
+.most-popular-card-img
+{
+    width: 127px;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px;
+}
+.hostings-card-description
+{
+    display: flex; 
+    flex-direction: column;
+}
+.most-popular-hotel-name
+{
+    margin: 15px 0px 5px 15px;
+    font-weight: bold;
+    color: black;
+    opacity: 0.8;
+}
+.most-popular-hotel-price
+{
+    margin: 0px 0px 5px 15px;
+    color: black;
+    opacity: 0.8;
+}
+.most-popular-hotel-rating
+{
+     margin: 25px 0px 5px 15px;
 }
 

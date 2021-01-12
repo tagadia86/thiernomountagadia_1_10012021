@@ -562,5 +562,73 @@ footer li
     text-decoration: none;
     list-style: none;
 }
-
+/*MEDIA QUERIES*****************************************************/
+@media all and (max-width: 320px)
+{
+    .page-block
+    {
+        max-width: 320px;
+    }
+    /*****HEADER*****/
+     /*****HEADER*****/
+    header
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    /*****HEADER PART 1*****/
+    .header-part1
+    {
+        position: relative;
+    }
+    header ul
+    {
+        position: absolute;
+        top: 50px;
+        left: -745px;
+    }
+    header a
+    {
+        padding-right: 110px;
+        margin-left: 0px;
+        color: #0065FC;
+    }
+   .header-part1 div nav a:hover
+    {
+        color: black;
+        margin-right: 70px;
+        padding-top: 20px;
+        border-top: 3px solid rgba(0,0,0,0);
+    }
+   /* #activity-link
+    {
+        color:black;
+    }*/
+    .register-button
+    {
+        position:absolute;
+        left: 240px;
+    }
+    .divider-line-blue
+    {
+        width:220px;
+        height: 3px;
+        background-color: #0065FC;
+        position: absolute;
+        top: 100px;
+        left: -35px;
+    }
+    .divider-line-grey
+    {
+        width:220px;
+        height: 5px;
+        background-color: #f2f2f2;
+        position: absolute;
+        top: 100px;
+        left: 186px;
+    }
+    
+    
+    
+}
 

@@ -236,7 +236,7 @@ h1
 .body-part1
 {
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     margin-top: 30px;
 }
 /*******************************************HOSTINGS**********************************************/

@@ -251,13 +251,14 @@ h1
     border-radius: 15px;
     margin-bottom: 30px;
 }
-.text-hebergement
+h4
 {
     display: flex;
     flex-wrap: wrap;
     margin:40px 0px 30px 0px;
-    font-weight: bold;
-    max-width: 320px;
+    
+    /*font-weight: bold;*/
+    /*max-width: 320px;*/
 }
 .bouton-afficher-plus
 {
@@ -406,10 +407,10 @@ h1
     flex-wrap: wrap;
     justify-content: center;
 }
-.text-activities
+h5
 {
-    font-weight: bold;
     padding: 35px 0px 10px 0px ;
+    font-size: 1em;
 }
 .activities-card1
 {
@@ -714,7 +715,7 @@ footer li
         font-weight: bold;
         max-width: 320px;
     }
-    .text-hebergement
+    h4
     {
         margin:0px 0px 10px 35px;
         max-width: 320px;
@@ -794,11 +795,10 @@ footer li
     {
         max-width: 320px;   
     }
-    .text-activities
+    h5
     {
-        font-weight: bold;
         max-width: 320px;
-        padding: 30px 0px 30px 10px ;
+        padding: 30px 0px 30px 20px ;
     }
     .activities-card1, .activities-card2, .activities-card3, .activities-card4 , .activities-card5
     {

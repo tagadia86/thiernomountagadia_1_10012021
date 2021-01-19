@@ -236,44 +236,49 @@ h1
 .body-part1
 {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px
+}
+.body-part1 section  
+{
+    border: 1px solid red;
+    display: flex;
 }
 /*******************************************HOSTINGS**********************************************/
-.hostings
-{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: #f2f2f2;
-    max-width: 880px;
-    padding: 0px 10px 0px 40px;
-    border-radius: 15px;
-    margin-bottom: 30px;
-}
 h4
 {
-    display: flex;
-    flex-wrap: wrap;
-    margin:40px 0px 30px 0px;
-    
-    /*font-weight: bold;*/
-    /*max-width: 320px;*/
+    margin-left: 15px;
+    margin-bottom: 30px;
 }
 .bouton-afficher-plus
 {
-    display: flex;
-    flex-wrap: wrap;
-    margin:10px 0px 50px 0px;
+    /*padding: 35px 0px 10px 0px ;*/
     font-weight: bold;
+    margin-left: 15px;
+    
+}
+
+.hostings
+{
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    /*margin-right: 50px;*/
+    padding-left: 40px;
+    padding-top: 40px;
 }
 .hostings-list
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    list-style:none;
-}
+       justify-content: space-around;
+   /* align-content: space-between;*/
+    max-width: 800px;
+    background-color: #f2f2f2;
+    margin-right: 40px;
+
+} 
 .hostings-card
 {
     display: flex;
@@ -285,7 +290,9 @@ h4
     height: 190px;
     border-radius: 15px;
     text-decoration: none;
-    margin: 0px 30px 30px 0px ;
+    margin-bottom: 30px;
+   /* margin-right: 37px;*/
+    /*margin: 0px 30px 30px 0px ;*/
 }
 .hosting-card-img
 {
@@ -324,41 +331,29 @@ h4
      margin: 0px 0px 0px 15px;
 }
 /**************************************************THE MOST POPULAR*******************************************************/
+/*.text-popular
+{
+ margin-bottom: 30px;
+}*/
 .most-popular
 {
-    display: flex;
-    flex-wrap: wrap;
+    display:flex;
     flex-direction: column;
-    max-width: 420px;
-    border-radius: 15px;
-    position: relative;
-    margin-bottom: 30px;
-    margin-left: 20px;
-}
-.text
-{
-    display: flex;
     flex-wrap: wrap;
-    margin:45px 0px 30px 0px;
-    font-weight: bold;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
 }
 .fa-chart-line
 {
     position:absolute;
-    top:30px;
-    left: 400px;
+    top:45px;
+    left: 330px;
 }
-.most-popular-list
-{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    list-style:none;
-    margin: 0px 0px 0px 35px;
-    padding: 0px 40px 0px 40px;
-    border-radius: 15px;
-    background-color: #f2f2f2;
-}
+
 .most-popular-card
 {
     display: flex;
@@ -367,10 +362,10 @@ h4
     border:5px solid white;
     background-color: white;
     text-decoration: none;
-    width: 333px;
+    max-width: 333px;
     height: 135px;
     border-radius: 15px;
-    margin-bottom:  42px;
+    margin-bottom: 30px;
 }
 .most-popular-card-img
 {
@@ -405,24 +400,24 @@ h4
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
-h5
+#activity
 {
-    padding: 35px 0px 10px 0px ;
-    font-size: 1em;
+    margin:20px 0px 30px 0px;
+    font-size: 1.1em;
 }
 .activities-card1
 {
     display: flex;
     flex-direction: column;
     list-style: none;
-    width: 300px;
+    width: 295px;
     height: 445px;
     border-radius: 15px;
     box-shadow: 3px 3px 0px 0px #f5f5f5;
     text-decoration: none;
-    margin:  0px 49px 50px 0px ;
+    /*margin:  0px 49px 50px 0px ;*/
 }
 .activities-card-img1
 {
@@ -446,12 +441,12 @@ h5
     display: flex;
     flex-direction: column;
     list-style: none;
-    width: 300px;
+    width: 295px;
     height: 240px;
     border-radius: 15px;
     box-shadow: 3px 3px 0px 0px #f5f5f5;
     text-decoration: none;
-    margin:  0px 40px 43px 0px ;
+    margin-bottom: 43px;
 }
 .activities-card-img2
 {
@@ -466,12 +461,12 @@ h5
     display: flex;
     flex-direction: column;
     list-style: none;
-    width: 300px;
+    width: 295px;
     height: 162px;
     border-radius: 15px;
     box-shadow: 3px 3px 0px 0px #f5f5f5;
     text-decoration: none;
-    margin:  0px 40px 50px 0px ;
+    /*margin:  0px 40px 50px 0px ;*/
 }
 .activities-card-img3
 {
@@ -486,12 +481,12 @@ h5
     display: flex;
     flex-direction: column;
     list-style: none;
-    width: 300px;
+    width: 295px;
     height: 194px;
     border-radius: 15px;
     box-shadow: 3px 3px 0px 0px #f5f5f5;
     text-decoration: none;
-    margin:  0px 0px 40px 0px ;/////
+    margin-bottom: 41px;
 }
 .activities-card-img4
 {
@@ -505,12 +500,12 @@ h5
     display: flex;
     flex-direction: column;
     list-style: none;
-    width: 300px;
+    width: 295px;
     height: 210px;
     border-radius: 15px;
     box-shadow: 3px 3px 0px 0px #f5f5f5;
     text-decoration: none;
-    margin:  40px 0px 50px 0px ;
+    /*margin:  40px 0px 50px 0px ;*/
 }
 .activities-card-img5
 {
@@ -545,8 +540,90 @@ footer li
     text-decoration: none;
     list-style: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1265px) and (min-width: 570px)  
+{
+        .hostings-list
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 1340px;
+        background-color: #f2f2f2;
+        margin-right: 40px;   
+    }
+        .hostings-card
+    {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        border:5px solid white;
+        background-color: white;
+        width: 40%;
+        max-height: 300px;
+        border-radius: 15px;
+        text-decoration: none;
+        margin-bottom: 30px;
+    }
+    /*THE MOST POPULAR*/
+        .most-popular 
+    {
+        display:flex;
+        flex-wrap: wrap;
+       
+        border-radius: 15px;
+        background-color: #f2f2f2;
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 1340px;
+        margin-top: 50px;
+    }
+    .most-popular-list
+    {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+         justify-content: space-between;
+        width:100%;
+    }
+        .most-popular-card
+    {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        border:5px solid white;
+        background-color: white;
+        text-decoration: none;
+        width: 100%;
+        height: 135px;
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }
+}
 /*MEDIA QUERIES*****************************************************/
-@media all and (max-width: 475px)
+@media all and (max-width: 569px)
 {
     .page-block
     {
@@ -706,7 +783,7 @@ footer li
         max-width: 320px;
         padding: 0px 0px 0px 0px;
     }
-    .text
+   /* .text
     {
         display: flex;
         flex-wrap: wrap;
@@ -714,16 +791,15 @@ footer li
         margin:0px 0px 0px 0px;
         font-weight: bold;
         max-width: 320px;
-    }
+    }*/
     h4
     {
-        margin:0px 0px 10px 35px;
         max-width: 320px;
+        margin:30px 0px 20px 20px;
     }
     .bouton-afficher-plus
     {
-        margin:20px 0px 0px 10px;
-        max-width: 320px;
+        font-size: 0.9em;
     }
     .hostings-list
     {
@@ -760,14 +836,14 @@ footer li
         border-radius: 0px;
         position: relative;
         padding: 30px 0px 0px 0px;
-        margin-left: 2.5px;
+        margin-left: 12px;
         background-color: #f2f2f2;
     }
     .fa-chart-line
     {
         position:absolute;
-        top: 30px;
-        left: 285px;
+        top: 62px;
+        left: 268px;
     }
     .most-popular-list
     {
@@ -794,11 +870,13 @@ footer li
     .body-part2
     {
         max-width: 320px;   
+        margin-left: 12px;
     }
     h5
     {
         max-width: 320px;
-        padding: 30px 0px 30px 20px ;
+        font-weight: 0.5em;
+        padding-left: 15px;
     }
     .activities-card1, .activities-card2, .activities-card3, .activities-card4 , .activities-card5
     {
@@ -843,4 +921,5 @@ footer li
         margin-left: 30px;
     }
 }
+
 

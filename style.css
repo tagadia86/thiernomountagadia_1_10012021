@@ -549,7 +549,6 @@ footer li
     {
         display:flex;
         flex-wrap: wrap;
-       
         border-radius: 15px;
         background-color: #f2f2f2;
         padding-top: 40px;
@@ -748,7 +747,7 @@ footer li
     h4
     {
         max-width: 320px;
-        margin:30px 0px 20px 20px;
+        margin:0px 0px 20px 20px;
     }
     .bouton-afficher-plus
     {
@@ -790,6 +789,7 @@ footer li
         position: relative;
         padding: 30px 0px 0px 0px;
         margin-left: 12px;
+        margin-bottom: 30px;
         background-color: #f2f2f2;
     }
     .most-popular-list
@@ -852,6 +852,8 @@ footer li
     footer
     {
         max-width: 320px;
+        border:1px solid rgba(0,0,0,0);
+        padding: 40px 0px 20px 0px;
     }
     footer p
     {
